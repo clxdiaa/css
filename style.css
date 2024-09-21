@@ -1,6 +1,20 @@
-div {
-    color: white;
-  background-color: red;
-  text-align: center;
-  font-size:88px;
+.paragraph{
+    color: rgb(0, 0, 0);
+  background-color: rgb(254, 139, 193);
+  font-family: "Verdana", "Dejavu Sans", sans-serif;
+}
+.paragraph.three{
+    font-size: 24px;
+}
+
+#numbertwo{
+    color:blue;
+    font-size: 36px;
+}
+
+#numberfour{
+    color:black;
+    background-color: rgb(45, 255, 118);
+    font-size: 24px;
+    font-weight: bold;
 }
