@@ -1,16 +1,14 @@
-.read,
-.unread {
-  font-size: 36px;
-  text-align: center;
-  font-family: "Times New Roman", serif;
+.bottone{
+  font-size: 28px;
+  font-family: "Helvetica", "Times New Roman", sans-serif ;
 }
 
-.read {
+.bottone.one {
     color: white;
     background-color: black;
 }
 
-.unread {
+.bottone.two {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 234, 0);
 }
