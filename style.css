@@ -1,14 +1,6 @@
-.bottone{
-  font-size: 28px;
-  font-family: "Helvetica", "Times New Roman", sans-serif ;
-}
-
-.bottone.one {
-    color: white;
-    background-color: black;
-}
-
-.bottone.two {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 234, 0);
+.ancestor .figlio{
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
 }
