@@ -7,21 +7,29 @@
     padding: 80px;
     margin: 20px;
   }
+  .card{
+    border: 6px solid black;
+    margin: 16px;
+    padding: 8px;
+  }
   .content{
     margin-top: 16px;
     margin-bottom: 16px;
     margin-right: 8px;
     margin-left: 8px;
     padding: 8px;
+    background: rgb(0, 238, 255);
   }
   .title{
     margin: 8px;
     font-size: 16px;
+    background: rgb(0, 238, 255);
   }
   .button-container{
     margin: 8px;
     text-align: center;
     padding: 8px;
+    background: rgb(0, 238, 255);
 
   }
   button{
@@ -29,4 +37,5 @@
     margin-bottom: 8px;
     margin-right: 24px;
     margin-left: 24px;
+    background: rgb(0, 238, 255);
   }
