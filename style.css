@@ -1,41 +1,201 @@
+/* this is some magical font-importing.  
+you'll learn about it later. */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+body {
+  margin: 0;
+  background: #eee;
+  font-family: Roboto, serif;
   
-  .one {
-    background: pink;
-    border: 6px solid blue;
-    /* CHANGE ME */
+}
+
+.header {
+  background: #1F2937;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.profile-image {
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.logo {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 900;
+  font-style: "Roboto", serif;
+  padding: 8px;
+}
+
+
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+}
+li{
+    font-size: small;
+}
+.sezione1{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
     padding: 80px;
-    margin: 20px;
-  }
-  .card{
-    border: 6px solid black;
-    margin: 16px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 100px;
+
+}
+p.title{
+    font-size: 48px;
+    color: white;
+    font-family: "Roboto", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+p.paragrafo{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.bottone{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
     padding: 8px;
-  }
-  .content{
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-right: 8px;
-    margin-left: 8px;
-    padding: 8px;
-    background: rgb(0, 238, 255);
-  }
-  .title{
-    margin: 8px;
-    font-size: 16px;
-    background: rgb(0, 238, 255);
-  }
-  .button-container{
-    margin: 8px;
+    min-height: 10px; 
+    min-width: 12px;
+}
+.left{
+    background-color: #7e8695;
+    color: #E5E7EB;
     text-align: center;
-    padding: 8px;
-    background: rgb(0, 238, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.sezione2 {
+    background-color: white;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  
+  .sezione2 h2 {
+    font-family: "Roboto", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .info-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
 
   }
-  button{
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-right: 24px;
-    margin-left: 24px;
-    background: rgb(0, 238, 255);
+  
+  .info-box {
+    background-color: white;
+    border: 3px solid #3882F6; /* Azurro border */
+    border-radius: 8px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: 1F2937;
   }
+  .sezione3{
+    background-color: #7e8695;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  p.quote{
+    font-size: 36px;
+    font-family: 'light italic', Times, serif;
+  }
+  p.side{
+    font-size: 20px;
+    text-align: right;
+  }
+  .sezione4{
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap:2px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-left: 250px white solid;
+    border-right: 250px white solid;
+    border-bottom: 100px white solid;
+    border-top: 100px white solid;
+
+}
+p.par{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+.botton{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    padding: 8px;
+    min-height: 10px; 
+    min-width: 20px;
+}
+.lef{
+    background-color: #3882F6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.footer{
+   background: #1F2937;
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+p.piede{
+    font-size: small;
+    color: white;
+    text-align: center;
+}
